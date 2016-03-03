@@ -1,0 +1,114 @@
+
+body {
+	background-image: url("https://goo.gl/5cocta");
+	background-repeat:repeat;
+}
+
+.jumbotron p {
+	float:right;
+}
+ 
+input {
+	height:37px;
+}
+
+.btn.btn-primary.raised {
+    box-shadow: 0 3px 0 0 #007299;
+}
+	
+.btn-primary.raised:active, .btn-primary.raised.active {
+    background: #33a6cc;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.btn.btn-info.raised {
+    box-shadow: 0 3px 0 0 #0f5f94;	
+}
+
+.btn-info.raised:active, .btn-info.raised.active {
+    background: #519ab3;
+    box-shadow: none;
+    margin-bottom: -3px;
+}
+
+.card {
+	background-color:#faf7f2;
+	text-align:center;
+	border:1px solid black;
+	padding: 0px 0px 0px 0px !important;
+	font-family:Sunshiney;
+}
+
+.card-footer,
+.card-header {
+	background-color:lightgray;
+	width:100%;
+	border:1px solid black;
+}
+
+div .row a {
+	font-family:Trade Winds;
+	color:black;
+}
+
+.row>button>span.glyphicon{
+	float:right;
+	color:white;
+	text-decoration:none;
+}
+
+
+
+
+
+
+//rainy shit is below here!
+html{height:100%;}
+body {
+background:#0D343A;
+background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(0,0,0,1) 100%);
+
+/*overflow:hidden;*/
+}
+.drop {
+  background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
+  background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
+	width:1px;
+	height:89px;
+	position: absolute;
+	bottom:200px;
+	-webkit-animation: fall .63s linear infinite;
+  -moz-animation: fall 2.63s linear infinite;
+  
+}
+/* animate the drops
+@-webkit-keyframes fall {
+	to {margin-top:900px;}
+}
+@-moz-keyframes fall {
+	to {margin-top:900px;}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--linkes-->
+	<link href='https://fonts.googleapis.com/css?family=Sunshiney' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Faster+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+<!--JumboTron-->
+<div class="container-fluid" id="firstContainer">
+  <div class="jumbotron">
+    <h1 style="font-family: Codystar; text-align:center">Weather here!</h1>
+    <h1 style="font-family: Codystar; text-align:center">Get yo' weather here!</h1>
+    <p><em>a humble app by your neighborhood friend</em></p>
+  </div>
+</div>	
+
+<!--input and button!-->
+<div class="container">
+	<div class="row">
+		<input class="col-lg-3 col-md-3 col-sm-6 col-xs-12"type="text" placeholder="some place exotic... a beach perhaps? " id="yonderPlace">
+		<button class="col-lg-3 col-md-3 col-sm-6 col-xs-12 btn btn-primary raised" id="searchYonder"><em>Let's see how it fares yonder 
+		<span class="glyphicon glyphicon-plus-sign"></span></em>
+		</button>
+		<input class ="col-lg-3 col-md-3 col-sm-6 col-xs-12" type="text" placeholder="home sweet home" id="yourHome">
+		<button class="col-lg-3 col-md-3 col-sm-6 col-xs-12 btn btn-primary raised" id="searchHome"><em>Be greeted with your current weather! (refresh to try!)
+		<span class="glyphicon glyphicon-plus-sign"></span></em>
+		</button>
+	</div>
+</div>
+
+<br>
+<br>
+<br>
+
+<!--Card Template to Append To -->
+<div class="container-fluid" id="addToMe">
+	<div class="row card" id ="cardTemplate">
+		<div class="card col-lg-4 col-md-4 col-sm-4 col-xs-12 text-xs-center">
+		  <div class="card-header" id="searchedCity">
+		  </div>
+		  <div class="card-block">
+		    <h4 class="card-title" id="temperature">
+		    </h4>
+		    <p class="card-text" id="weather">
+				Set your home location to view the weather next time you log in!
+		    </p>
+				<div class="row">
+					<div class="col-sm-4" id="nextDay"></div>
+					<div class="col-sm-4" id="secondDay"></div>
+					<div class="col-sm-4" id="thirdDay"></div>
+				</div>
+		    <div class="row">
+		    	<a href="https://www.google.com/flights/" class="btn btn-info raised col-lg-offset-4 col-lg-4">
+		    	<span class="glyphicon glyphicon-plane"></span>
+		    	 Book a trip!
+		    	</a>
+		    	<button type="button" class="btn btn-sm label-danger" 
+		    	style="float:right; margin-right: 15px; margin-top:30px"
+		    	id = "deleter">
+          	<span class="glyphicon glyphicon-minus"></span> 
+       	 	</button>
+		    </div>
+		  </div>
+		  <div class="card-footer text-muted text-xs-center deleter">
+		    <em>
+		    </em>
+		  </div>
+		</div>
+	</div>
+</div>
+
+
+	<!--scripts-->
+	<script src= "http://code.jquery.com/jquery-2.2.1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="main.js"></script>
+</section>
+</body>
+</html>
+
+
+
+
